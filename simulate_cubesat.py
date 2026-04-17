@@ -352,7 +352,7 @@ add_vizard_scene_overlays(
 print(f"Mode: {ADCS_MODE}")
 scSim.InitializeSimulation()
 stop_time_nanos = macros.hour2nano(SIM_HOURS)
-visual_update_step_nanos = macros.sec2nano(5.0)
+visual_update_step_nanos = macros.sec2nano(1.0)
 next_stop_nanos = 0
 current_visual_state = None
 # current_visual_state = initial_visual_state
